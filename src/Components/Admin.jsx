@@ -10,6 +10,8 @@ function Admin() {
         <input type="text"  placeholder='Enter Your Name' />
         <input type="password" placeholder='Password' />
         <input type="submit" value="submit" />
+        <input type="text" />
+        
     </form>
       
     </>
