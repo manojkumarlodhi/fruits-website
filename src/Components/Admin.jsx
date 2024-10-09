@@ -9,6 +9,7 @@ function Admin() {
         <h1>Admin</h1>
         <input type="text"  placeholder='Enter Your Name' />
         <input type="password" placeholder='Password' />
+        <input type="submit" value="submit" />
     </form>
       
     </>
