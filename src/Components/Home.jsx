@@ -39,74 +39,71 @@ function Home() {
         </button>
       </div>
       <div className="text-center text-4xl font-bold p-4 m-4">LATEST FRUIT</div>
-      <div className="flex flex-wrap item-center justify-center w-[90%] gap-24 mx-auto  ">
-        <div className="flex">
-          <div className="">
-            <img src={waterImg} alt="water" className='w-32' />
-          </div>
-          <div>
-            <p>Water Chestnut</p>
-            <p>Green</p>
-            <p>Rs. 600.00</p>
-            <div className='flex gap-3 text-2xl'>
-            <IoEyeSharp className='bg-green-500 text-white p-1  rounded-full text-3xl' />
-            <FaHeart className='bg-green-500 text-white p-1  rounded-full text-3xl' />
-            <PiTrolleyFill className='bg-green-500 text-white p-1  rounded-full text-3xl' />
-            </div>
-          </div>
-
-        </div>
-        <div className="flex">
-          <div className="img">
-            <img src={longan} alt="longan" className='w-32' />
-          </div>
-          <div>
-            <p>Longan -</p>
-            <p>imported</p>
-            <p>Rs. 600.00</p>
-            <div className='flex gap-3 text-2xl'>
-            <IoEyeSharp className='bg-green-500 text-white p-1  rounded-full text-3xl' />
-            <FaHeart className='bg-green-500 text-white p-1  rounded-full text-3xl ' />
-            <PiTrolleyFill className='bg-green-500 text-white p-1  rounded-full text-3xl' />
-            </div>
-            
-          </div>
-
-
-        </div>
-        <div className="flex">
-          <div className="img">
-            <img src={guava} alt="guava"  className='w-32'/>
-          </div>
-          <div>
-            <p>Pink Guava -</p>
-            <p>Imported</p>
-            <p>Rs. 600.00</p>
-            <div className='flex gap-3 text-2xl'>
-            <IoEyeSharp className='bg-green-500 text-white p-1  rounded-full text-3xl' />
-            <FaHeart className='bg-green-500 text-white p-1  rounded-full text-3xl'  />
-            <PiTrolleyFill className='bg-green-500 text-white p-1  rounded-full text-3xl' />
-            </div>
-          </div>
-
-        </div>
-        <div className="flex ">
-          <div className="img">
-            <img src={rambutan} alt="rambutan"  className='w-32'/>
-          </div>
-          <div>
-            <p>Rambutan -</p>
-            <p>Imported</p>
-            <p>Rs.600.00</p>
-            <div className='flex gap-2 text-2xl'>
-            <IoEyeSharp className='bg-green-500 text-white p-1  rounded-full text-3xl' />
-            <FaHeart  className='bg-green-500 text-white p-1 rounded-full text-3xl' />
-            <PiTrolleyFill className='bg-green-500 text-white p-1 rounded-full text-3xl' />
-            </div>
-          </div>
-
-        </div>
+      <div className="flex flex-wrap item-center justify-center w-[90%] gap-24 mx-auto">
+  <div className="flex">
+    <div className="">
+      <img src={waterImg} alt="water" className='w-32' />
+    </div>
+    <div>
+      <p>Water Chestnut</p>
+      <p>Green</p>
+      <p>Rs. 600.00</p>
+      <div className='relative group flex gap-3 text-2xl'>
+        <IoEyeSharp className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100 group-active:text-black' />
+        <FaHeart className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-300 group-active:text-black' />
+        <PiTrolleyFill className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-500 group-active:text-black' />
       </div>
+    </div>
+  </div>
+
+  <div className="flex">
+    <div className="img">
+      <img src={longan} alt="longan" className='w-32' />
+    </div>
+    <div>
+      <p>Longan -</p>
+      <p>imported</p>
+      <p>Rs. 600.00</p>
+      <div className='relative group flex gap-3 text-2xl'>
+        <IoEyeSharp className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100 group-active:text-black' />
+        <FaHeart className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-300 group-active:text-black' />
+        <PiTrolleyFill className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-500 group-active:text-black' />
+      </div>
+    </div>
+  </div>
+
+  <div className="flex">
+    <div className="img">
+      <img src={guava} alt="guava" className='w-32' />
+    </div>
+    <div>
+      <p>Pink Guava -</p>
+      <p>Imported</p>
+      <p>Rs. 600.00</p>
+      <div className='relative group flex gap-3 text-2xl'>
+        <IoEyeSharp className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100 group-active:text-black' />
+        <FaHeart className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-300 group-active:text-black' />
+        <PiTrolleyFill className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-500 group-active:text-black' />
+      </div>
+    </div>
+  </div>
+
+  <div className="flex">
+    <div className="img">
+      <img src={rambutan} alt="rambutan" className='w-32' />
+    </div>
+    <div>
+      <p>Rambutan -</p>
+      <p>Imported</p>
+      <p>Rs.600.00</p>
+      <div className='relative group flex gap-3 text-2xl'>
+        <IoEyeSharp className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100 group-active:text-black' />
+        <FaHeart className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-300 group-active:text-black' />
+        <PiTrolleyFill className='bg-green-500 text-white p-1 rounded-full text-3xl opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-500 group-active:text-black' />
+      </div>
+    </div>
+  </div>
+</div>
 
 
     </>
