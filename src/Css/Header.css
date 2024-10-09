@@ -1,0 +1,250 @@
+/* Reset and container styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding: 20px;
+    position: relative; 
+    
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 60%; 
+    max-width: 190px; 
+    margin: 5px 0; 
+    justify-content: center;
+}
+
+.image-container img {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Smooth transition for image movement */
+}
+
+/* Hover effect for image movement */
+.image-container img:hover {
+    transform: translateY(-3px); /* Moves the image up slightly */
+}
+
+.image-container span {
+    color: #fff;
+    font-size: 14px; 
+    margin-left: 5px;
+    position: relative;
+    top: 2px; 
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+/* Hover effect for text color change */
+.image-container:hover span {
+    color: green; /* Changes the text color to green on hover */
+}
+
+
+/* Container for the second section */
+/* Main styles */
+.first{
+    position: absolute; /* Use absolute positioning to overlay */
+    top: 10%; /* Adjust to move it downwards */
+    left: 50%;
+    transform: translateX(-50%); 
+    justify-content: center; 
+    width: 80%;                  
+    height: 18vh; 
+    background-color: #f8f8f8;  
+    z-index: 10;   
+    
+
+}
+.second {
+    
+   /* Center horizontally */
+   
+    align-items: flex-start; 
+    display: flex;               
+    justify-content: center;      
+    justify-content: space-between;
+                   
+    padding: 10px 20px;          
+     
+    margin: 0 auto;
+                 
+}
+
+/* Logo styles */
+.logo img {
+    margin-top: -15px;
+    width: 70px;                
+    height: 70px;                
+}
+
+/* Feature section styles */
+.feature {
+    width: 45%;
+    justify-content: space-between;
+    display: flex;             
+    align-items: center;         
+    color: green;                
+}
+
+/* Style for each feature item */
+.feature p {
+    margin: 0 10px;             
+    display: flex;                
+    align-items: center;         
+    transition: color 0.3s ease;  
+    font-size: 18px;              
+}
+.feature a {
+    text-decoration: none; 
+    color: inherit;       
+}
+
+
+/* Icon styles */
+.feature p svg {               
+    width: 35px;                 
+    height: 35px;                
+    margin-right: 5px;          
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+/* Button icon styles */
+.feature button svg {           
+    width: 25px;                
+    height: 25px;                
+    margin-right: 5px;           
+}
+
+/* Hover effect for icons and text */
+.feature p:hover {
+    color: green;                
+}
+
+.feature p:hover svg {
+    transform: scale(1.2);       
+}
+
+/* Button styles */
+.feature button {
+    background-color: #4CAF50; 
+    border: none;               
+    color: white;               
+    padding: 5px 10px;         
+    cursor: pointer;            
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;       
+    font-size: 16px; }          
+
+/* Button hover effect */
+.feature button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05);    
+}
+
+/* Main container */
+.second1 {
+    margin-top: -25px;
+    display: flex;                
+    align-items: center;          
+    justify-content: space-between; 
+    padding: 10px 20px;           
+    color: #333;                  
+    background-color: transparent; /* Remove background color */
+}
+
+/* Button styles for categories */
+.second1 button {
+    display: flex;               
+    align-items: center;         
+    background-color: green;     
+    color: #fff;                 
+    border: none;                
+    padding: 12px 20px;         /* Increased padding for larger button size */
+    font-size: 18px;            /* Increased font size */
+    cursor: pointer;             
+    border-radius: 4px;         
+}
+
+/* List styles */
+.second1 ul {
+    display: flex;                
+    list-style: none;             
+    margin: 0;                    
+    padding: 0;                   
+    gap: 30px;  /* Increased gap between items */
+}
+
+.second1 li {
+    display: flex;                
+    align-items: center;          
+}
+
+/* Link styles */
+.second1 a {
+    text-decoration: none;       
+    color: #333; 
+    padding: 10px 20px;  /* Increased padding for links */
+    font-size: 18px;      /* Increased font size for links */
+    border-radius: 4px;   /* Rounded corners */
+}
+
+/* Search bar container */
+.serch {
+    display: flex;                
+    align-items: center;         
+    border: 1px solid green; /* Added border for the search container */
+    border-radius: 4px;      /* Rounded corners */
+    overflow: hidden;            
+}
+
+/* Input field styling */
+.serch input[type="text"] {
+    padding: 10px 15px;          
+    font-size: 16px;             
+    border: none;                /* Remove input border */
+    outline: none;               
+    width: 250px;                
+    margin: 0;                   
+    background-color: transparent; /* Remove background color */
+}
+
+/* Search icon styling */
+.serch span {
+    display: flex;               
+    align-items: center;         
+    justify-content: center;     
+    background-color: green;     /* Keep background color for icon */
+    padding: 10px;              
+    color: #fff;                
+    cursor: pointer;            
+    transition: background-color 0.3s ease; 
+}
+
+.serch span:hover {
+    background-color: black;  /* Change icon background on hover */
+}
+
+
+
+.carousel {
+  position: relative;
+  z-index: 1; /* Slider behind the header */
+}
+
+.carousel-inner img {
+  height: 80vh; /* Adjust height of the slider */
+}
