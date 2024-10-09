@@ -33,7 +33,7 @@ function Register() {
 
     const emailExists = data && data.some((res) => res.email === user_data.email);
     if (emailExists) {
-      alert("Email already exists");
+      alert("Email pehle se hai jai");
       return;
     }
 
