@@ -1,11 +1,16 @@
 {
-    "users": [
-      {
-        "id": "1",
-        "name": "manoj",
-        "email": "manoj@gmail.com",
-        "password": "123"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "1",
+      "name": "manoj",
+      "email": "manoj@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "bfcb",
+      "name": "manoj lodhi",
+      "email": "manoj1@gmail.com",
+      "password": "123"
+    }
+  ]
+}
