@@ -11,6 +11,7 @@ function Admin() {
         <input type="password" placeholder='Password' />
         <input type="submit" value="submit" />
         <input type="text" />
+        <input type="login " />
         
     </form>
       
